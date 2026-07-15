@@ -235,7 +235,7 @@ def get_all_analysis_paths(cli_args):
                             cli_args['bids_dir'], cli_args['subject'],
                             cli_args['ses'], f_or_a
                         ) for f_or_a in ('anat', 'func')} 
-    paths['AROI2'] = os.path.join(cli_args['templates'], 'Atlas_ROIs.2.nii.gz')
+    paths['AROI2'] = os.path.join(cli_args['templates'], 'Atlas_ROIs.2.4.nii.gz')
     return paths
 
 
